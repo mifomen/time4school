@@ -57,7 +57,6 @@ body {
 	background-color:#586a72;
 }
 .page-header__search h1, h2 {
-	
 	font-size: 26px;
  color: #fff;
 	margin-left: 20px;
@@ -80,17 +79,14 @@ body {
 	background-color: #70858f;
 	padding: 15px;
  border-radius: 25px  0 0 25px; 
-
 }
 .page-header__search input:focus {
 	color: rgba(1,1,1,1);
 	font-family: Georgia, Tahoma, 'serif';
-	box-shadow: 0px 0px 1px rgba(255,255,255,1),
-				0px 0px 1px #2f7cc0;
+	box-shadow: 0px 0px 1px rgba(255,255,255,1),0px 0px 1px #2f7cc0;
 	outline:transparent;
-	/*outline:none; ? what more better?*/
 }
-/*palce holder white color*/
+/*palceholder white color*/
 ::-webkit-input-placeholder {
 	color:white;
 }
@@ -115,8 +111,7 @@ body {
 	border-radius: 0 25px 25px 0; 
 }
 .page-header__search button:focus {
-		box-shadow: 0px 0px 1px rgba(255,255,255,1),
-														0px 0px 1px #2f7cc0;
+		box-shadow: 0px 0px 1px rgba(255,255,255,1),0px 0px 1px #2f7cc0;
 	outline:transparent;
 }
 .page-header__nav-menu a{
@@ -147,7 +142,6 @@ background-color: #888;
  width: 500%;
  transition: transform 0.8s ease;
 }
-
 .slider-slides figure {
  float:left;
  padding:0;
@@ -163,7 +157,6 @@ background-color: #888;
 	padding: 25px 20px;
 	font-size: 14px;
 }
-
 .slider input[type=radio] {
  display: none;
 }
@@ -174,7 +167,6 @@ background-color: #888;
  right:20px;
  font-size:0;
  text-align: center;
-   
 }
 .slider-controls label {
  display:inline-block;
@@ -235,7 +227,9 @@ background-color: #888;
 	justify-content: flex-start;
 	align-items: center;
 }
-
+.advantages-list__first-line {
+	text-align: center;
+}
 .advantages-list__third-line a {
 	margin-bottom: 50px;
 }
@@ -244,9 +238,9 @@ background-color: #888;
 	padding: 25px 20px;
 	text-align: center;
 	font-size:22px;
-
 	color: #928e88;
 	font-style: italic;
+	margin:20px 0;
 	border-top:1px solid #e7e7e7;
 	border-bottom:1px solid #e7e7e7;
 }
@@ -258,11 +252,13 @@ background-color: #888;
 	flex-direction: row;
  justify-content: space-around;
  color: #928e88;
+ padding-bottom:10px;
 }
 .page-footer h4 {
 	font-size:12px;
 	color: #928e88;
 	font-weight: bold;
+	margin-bottom:5px;
 }
 .page-footer span {
 	font-size:13px;
@@ -285,24 +281,54 @@ background-color: #888;
 	border-top:none;
 }
 .page-footer__colum-first h5 {
-	font-size:14px;
+font-size:12px;
+margin-bottom:0;
+
 }
 .page-footer__colum-first h6 {
 	font-size:10px;
+		margin:0;
 }
-.page-footer__colum-second span {
-
+.page-footer__colum-second a {
 	font-size:12px;
 	border-bottom: 1px solid #e3e3e3;
+	padding: 7px 0px;
 }
-.page-footer__colum-second span:before {
+.page-footer__colum-second a:before {
 	content:"»";
 	padding-right: 5px;
 }
-.page-footer__colum-third {
-
+.page-footer__colum-third a {
+	background-color: #586a72;
+padding:10px;
+color:white;
+border-radius: 10px;
+ margin: 10px 0px;
 }
-
+.page-footer__colum-third input {
+ padding: 10px;
+ border:0;
+ border-radius: 10px;
+ margin: 10px 0px;
+ box-shadow: 0px 0px 1px rgba(255,255,255,1), 0px 0px 1px #2f7cc0;
+	outline:transparent;
+}
+.page-footer__colum-third ::-webkit-input-placeholder {
+ color:#938e88;
+ font-size:13px;
+}
+.page-footer__colum-third :-moz-placeholder { 
+ color:#938e88;
+  font-size:13px;
+}
+.page-footer__colum-third ::-moz-placeholder {
+ color:#938e88;
+  font-size:13px;
+}
+.page-footer__colum-third :-ms-input-placeholder {
+ color:#938e88;
+  font-size:13px;
+}
 .copyright {
 	display: flex;
 	border-top:1px solid #fff;
@@ -315,4 +341,3 @@ background-color: #888;
 	font-size:12px;
 	color: #928e88;
 }
-
