@@ -229,4 +229,13 @@ Email: contact@mydomain.com</span>
 	<h4>Copyright © 2013 - All Rights Reserved - Domain Name</h4>
 	<h4>Template by OS Templates</h4>
 </body>
+<script>
+  
+var links = document.getElementsByTagName('a');
+for (var i = 0; i < links.length; i++) {
+  links[i].addEventListener('click',function (evt) {
+    evt.preventDefault();
+  })
+};
+</script>
 </html>
